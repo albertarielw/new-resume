@@ -1,7 +1,7 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Hi, I'm Albert",
+    "description":"Currently, a software engineering intern @ TikTok",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -49,30 +49,38 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National University of Singapore (NUS)",
+        "degree":"Computer Science and Mathematics",
+        "graduated":"Nov 2024",
+        "description":"Courseworks: Competitive Programming, Operating Systems, Computer Networks, Software Engineering, Database Systems, Data Structure & Algorithms, Object-Oriented Programming",
+        "description2":"Awarded NUS Undergraduate Merit Scholarship for Academic Excellence"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Raffles Institution",
+        "degree":"Science Streams",
+        "graduated":"Dec 2020",
+        "description":"Medallists in Physics, Mathematics, Research and Robotics Olympiads",
+        "description2":"Awarded SCCC School Based Scholarship for Academic Excellence"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"TikTok",
+        "title":"Software Engineering Intern",
+        "years":"Jan 2023 - July 2023",
+        "description":"Developed internal tools for site stability issues identification and management"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ConcreteAI",
+        "title":"Software Engineering Intern",
+        "years":"May 2022 - July 2022",
+        "description":"Developed android application for data transmission via Bluetooth Low Energy (BLE)"
+      },
+      {
+        "company":"National University of Singapore (NUS)",
+        "title":"Teaching Assistant",
+        "years":"May 2022 - July 2022",
+        "description":"Taugt Introduction to Programming in Python to a class of 25 freshmen"
       }
     ],
     "skills":[
