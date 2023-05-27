@@ -13,8 +13,17 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
             <div style={{ textAlign: "center" }}>{projects.title}</div>
+            <Zmage alt={projects.title} src={projectImage} />
+            <div style={{ textAlign: "center" }}>{projects.category}</div>
+            <div style={{ textAlign: "center" }}>
+            {
+              projects.stacks.map( (stack) =>
+                <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
+              )
+            }
+            </div>
+
           </div>
         </div>
       );
@@ -25,7 +34,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Here are my recent projects!</h1>
 
               <div
                 id="portfolio-wrapper"

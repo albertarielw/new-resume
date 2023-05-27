@@ -127,76 +127,53 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Lish's Adventure",
+        "category":"Mobile Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["flutter.svg", "flame.png"]
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"speckle.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "wolfram.svg"]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"QR Decomposition Algo",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
       }
     ]
   }
