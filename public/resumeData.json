@@ -68,19 +68,29 @@
         "company":"TikTok",
         "title":"Software Engineering Intern",
         "years":"Jan 2023 - July 2023",
-        "description":"Developed internal tools for site stability issues identification and management"
+        "description":"Developed internal tools for site stability issues identification and management",
+        "stacks": ["golang.svg", "python.svg", "sql.png", "redis.svg", "grafana.png"]
       },
       {
         "company":"ConcreteAI",
         "title":"Software Engineering Intern",
         "years":"May 2022 - July 2022",
-        "description":"Developed android application for data transmission via Bluetooth Low Energy (BLE)"
+        "description":"Developed android application for data transmission via Bluetooth Low Energy (BLE)",
+        "stacks": ["node.svg", "kotlin.svg", "mongodb.png", "android.svg"]
+      },
+      {
+        "company":"NUS-SSI Laboratories",
+        "title":"Research Assistant",
+        "years":"May 2023 - August 2023",
+        "description":"Developed communication module for smart glasses using WebRTC",
+        "stacks": ["cpp.svg", "opencv.svg", "js.svg"]
       },
       {
         "company":"National University of Singapore (NUS)",
         "title":"Teaching Assistant",
         "years":"May 2022 - July 2022",
-        "description":"Taugt Introduction to Programming in Python to a class of 25 freshmen"
+        "description":"Taugt Introduction to Programming in Python to a class of 25 freshmen",
+        "stacks": ["python.svg"]
       }
     ],
     "skills":[

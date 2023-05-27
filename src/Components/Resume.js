@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
+
 class Resume extends Component {
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -40,7 +41,18 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p>
+            {work.description}
+
+            <div className="break-special" />
+            {
+              work.stacks.map( (stack) =>
+                <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
+              )
+            }
+
+            
+          </p>
         </div>
       );
     });
