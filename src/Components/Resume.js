@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
-
+import Zmage from "react-zmage";
 
 class Resume extends Component {
   getRandomColor() {
@@ -56,8 +56,7 @@ class Resume extends Component {
       );
     });
 
-    console.log(this.props.data.projects)
-
+    // let id = 1;
     const project = this.props.data.projects.map(function (project) {
       return (
         <div key={project.title}>
@@ -68,9 +67,12 @@ class Resume extends Component {
             <a href={project.github_url}>
               <img src="icons/github.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px', marginRight: '5px' }} />
             </a>
-            <a href={project.website_url}>
-              <img src="icons/globe.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px' }} />
-            </a>
+            {
+                project.website_url !== "" &&
+                <a href={project.website_url}>
+                  <img src="icons/globe.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px' }} />
+                </a>
+            }
           </p>
           <p>
             {project.description}
@@ -80,25 +82,95 @@ class Resume extends Component {
                 <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
               )
             }
-
           </p>
+          {/* <div
+                id="portfolio-wrapper"
+                className="bgrid-quarters s-bgrid-thirds cf"
+              >
+            <div key={id++} className="columns portfolio-item" style={{ display: "flex" }}>
+              <div className="item-wrap">
+                <Zmage alt={project.title} src={"/images/portfolio/" + project.image} />
+              </div>
+            </div>
+          </div> */}
         </div>
       );
     });
 
-
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
+    // let id = 1;
+    const miniProject = this.props.data.miniProjects.map(function (project) {
       return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        <div key={project.title}>
+          <h3>{project.title}</h3>
+          <p className="info">
+            {project.category}
+            {
+              project.github_url !== "" &&
+              project.website_url !== "" &&
+              <span>&bull;</span> 
+            }
+            {
+              project.github_url !== "" &&
+              <a href={project.github_url}>
+                <img src="icons/github.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px', marginRight: '5px' }} />
+              </a>
+            }
+            {
+                project.website_url !== "" &&
+                <a href={project.website_url}>
+                  <img src="icons/globe.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px' }} />
+                </a>
+            }
+          </p>
+          <p>
+            {project.description}
+            <div className="break-special" />
+            {
+              project.stacks.map( (stack) =>
+                <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
+              )
+            }
+          </p>
+          {/* <div
+                id="portfolio-wrapper"
+                className="bgrid-quarters s-bgrid-thirds cf"
+              >
+            <div key={id++} className="columns portfolio-item" style={{ display: "flex" }}>
+              <div className="item-wrap">
+                <Zmage alt={project.title} src={"/images/portfolio/" + project.image} />
+              </div>
+            </div>
+          </div> */}
+        </div>
       );
     });
+
+    const skillset = this.props.data.skillset.map(function (skill) {
+      return (
+        <div key={skill.title}>
+          <h3>{skill.title}</h3>
+          <div className="break-special" />
+          {
+            skill.stacks.map( (stack) =>
+              <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
+            )
+          }
+        </div>
+      );
+    });
+
+    // const skills = this.props.data.skills.map((skills) => {
+    //   const backgroundColor = this.getRandomColor();
+    //   const className = "bar-expand " + skills.name.toLowerCase();
+    //   const width = skills.level;
+
+    //   return (
+    //     <li key={skills.name}>
+    //       <span style={{ width, backgroundColor }} className={className}></span>
+    //       <em>{skills.name}</em>
+    //     </li>
+    //   );
+    // });
 
     return (
       <section id="resume">
@@ -117,12 +189,11 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
-
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Work Experience</span>
               </h1>
             </div>
 
@@ -132,14 +203,38 @@ class Resume extends Component {
 
 
         <Slide left duration={1300}>
-          <div className="row work">
+          <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Project</span>
+                <span>Projects</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">{project}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>Skills</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{skillset}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Activities</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{miniProject}</div>
           </div>
         </Slide>
       </section>

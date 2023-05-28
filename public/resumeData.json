@@ -51,15 +51,15 @@
       {
         "school":"National University of Singapore (NUS)",
         "degree":"Computer Science and Mathematics",
-        "graduated":"Nov 2024",
+        "graduated":"Graduation Date: Nov 2024",
         "description":"Courseworks: Competitive Programming, Operating Systems, Computer Networks, Software Engineering, Database Systems, Data Structure & Algorithms, Object-Oriented Programming",
         "description2":"Awarded NUS Undergraduate Merit Scholarship for Academic Excellence"
       },
       {
         "school":"Raffles Institution",
         "degree":"Science Streams",
-        "graduated":"Dec 2020",
-        "description":"Medallists in Physics, Mathematics, Research and Robotics Olympiads",
+        "graduated":"Graduation Date: Dec 2020",
+        "description":"Awards in Physics, Mathematics, Research and Robotics Olympiads",
         "description2":"Awarded SCCC School Based Scholarship for Academic Excellence"
       }
     ],
@@ -123,27 +123,99 @@
         "level":"80%"
       }
     ],
-      "projects": [
-    {
-      "title":"PINUS Study Forum",
-      "category":"Website Development",
-      "image":"pinus.png",
-      "website_url": "https://pinus-study.netlify.app/",
-      "github_url": "https://github.com/PINUSTECH-2022",
-      "url":"https://www.canadianwanderlust.com",
-      "description": "Led a team of 8 programmers to build an online forum centred around NUS courseworks",
-      "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
-    },
-    {
-      "title":"FoodSense",
-      "category":"Website Development",
-      "image":"foodsense2.png",
-      "website_url": "https://pinus-study.netlify.app/",
-      "github_url": "https://github.com/PINUSTECH-2022",
-      "url":"https://www.canadianwanderlust.com",
-      "description": "Worked in a team of 2 to build a food analytics website",
-      "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
-    }
+    "projects": [
+      {
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "website_url": "https://pinus-study.netlify.app/",
+        "github_url": "https://github.com/PINUSTECH-2022",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed an online forum centred around NUS courseworks (team lead)",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
+      },
+      {
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "website_url": "https://foodsense2022.github.io/",
+        "github_url": "https://github.com/albertarielw/FoodSense",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed a food analytics website",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
+      },
+      {
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "website_url": "https://ay2223s1-cs2103t-f12-2.github.io/tp/",
+        "github_url": "https://github.com/AY2223S1-CS2103T-F12-2/tp",
+        "description": "Developed hackathon task management desktop application",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
+      },
+      {
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "website_url": "",
+        "github_url": "https://github.com/AudreyFelicio/Tetris",
+        "description": "Developed a simple Tetris game",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
+      },
+      {
+        "title":"QR Decomposition Algorithm",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/qr-decomposition-prediction",
+        "description": "Implemented least square approximation based on QR decomposition algorithm",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
+      }
+    ],
+    "miniProjects": [
+      {
+        "title":"Physics Research: The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"pinus.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/Drifting-Speckle",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Silver Medal in Singapore Young Physicists' Tournament 2020",
+        "stacks": ["cpp.svg", "wolfram.svg"]
+      },
+      {
+        "title":"Robotics Software Engineer",
+        "category":"Robotics Development",
+        "image":"foodsense2.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/robotics",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "3rd Place Award in RoboCup World 2019, Invitation to RoboCup World 2019 in Sydney",
+        "stacks": ["cpp.svg", "python.svg"]
+      },
+      {
+        "title":"Physics Olympiad",
+        "category":"Academic Competition",
+        "image":"hackassist.png",
+        "website_url": "",
+        "github_url": "",
+        "description": "Silver Medal in SPhO 2019, Bronze and Silver Medal in SJPO 2017 & 2018",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": []
+      }
+    ],
+    "skillset": [
+      {
+        "title": "Programming Language",
+        "stacks": ["cpp.svg", "golang.svg", "python.svg", "java.svg", "js.svg", "html.svg", "css.svg", "c.svg", "kotlin.svg"]
+      },
+      {
+        "title": "Frameworks",
+        "stacks": ["sql.png", "psql.png", "gin.png", "node.svg", "firebase.svg", "react.png", "android.svg", "git.svg"]
+      }
     ]
   },
   "portfolio":{
