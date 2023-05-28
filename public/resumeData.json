@@ -1,15 +1,15 @@
 {
   "main": {
     "name":"Hi, I'm Albert",
-    "description":"Currently, a software engineering intern @ TikTok",
-    "image":"newprofilepic2.png",
-    "bio":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding! My dream job is to work on software development projects where I can learn, ideate and implement exciting solutions!",
-    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
+    "description":"Excited To Work On Cool Software Engineering Project!",
+    "image":"profilepic5.jpeg",
+    "bio1":"I really love software engineering - it is akin to magic for me because of its ability to translate my imagination to reality. I always look forward to build exciting software engineering products reliably and responsibly!",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane, I love to gym and play nintendo switch with my best buds!",
     "contactmessage":"Contact me to collaborate on software development projects!",
     "email": "w.albertariel@u.nus.edu",
     "phone": "(+65) 8130 6134",
     "github":"https://github.com/albertarielw",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://www.linkedin.com/in/albert-widiaatmaja",
     "address":{
       "street":"1 Raffles Institution Lane",
       "city":"Singapore City",
@@ -20,28 +20,8 @@
     "resumedownload":"https://github.com/albertarielw/albertarielw/blob/main/Resume%20Albert%20Ariel%20Widiaatmaja%20(30%20Aug%202022).pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/albertarielw",
         "className":"fa fa-github"
       }
     ]
