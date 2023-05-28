@@ -11,7 +11,7 @@ class Portfolio extends Component {
       let projectImage = "images/portfolio/" + projects.image;
 
       return (
-        <div key={id++} className="columns portfolio-item">
+        <div key={id++} className="columns portfolio-item" style={{ display: "flex" }}>
           <div className="item-wrap">
             <div style={{ textAlign: "center" }}>{projects.title}</div>
             <Zmage alt={projects.title} src={projectImage} />
