@@ -105,8 +105,8 @@ class Resume extends Component {
           <p className="info">
             {project.category}
             {
-              project.github_url !== "" &&
-              project.website_url !== "" &&
+              (project.github_url !== "" ||
+              project.website_url !== "") &&
               <span>&bull;</span> 
             }
             {
