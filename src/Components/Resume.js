@@ -148,7 +148,7 @@ class Resume extends Component {
     const skillset = this.props.data.skillset.map(function (skill) {
       return (
         <div key={skill.title}>
-          <h3>{skill.title}</h3>
+          
           <div className="break-special" />
           {
             skill.stacks.map( (stack) =>
@@ -190,7 +190,7 @@ class Resume extends Component {
           </div>
         </Slide>
         <Slide left duration={1300}>
-          <div className="row education">
+          <div className="row education" >
             <div className="three columns header-col">
               <h1>
                 <span>Work Experience</span>
@@ -221,8 +221,11 @@ class Resume extends Component {
                 <span>Skills</span>
               </h1>
             </div>
-
-            <div className="nine columns main-col">{skillset}</div>
+            
+            <div className="nine columns main-col">
+              <h3>What (I Think) I Know</h3>
+              {skillset}
+            </div>
           </div>
         </Slide>
 
@@ -234,7 +237,9 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{miniProject}</div>
+            <div className="nine columns main-col">
+              {miniProject}
+            </div>
           </div>
         </Slide>
       </section>
