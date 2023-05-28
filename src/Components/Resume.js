@@ -51,11 +51,41 @@ class Resume extends Component {
               )
             }
 
-            
           </p>
         </div>
       );
     });
+
+    console.log(this.props.data.projects)
+
+    const project = this.props.data.projects.map(function (project) {
+      return (
+        <div key={project.title}>
+          <h3>{project.title}</h3>
+          <p className="info">
+            {project.category}
+            <span>&bull;</span> 
+            <a href={project.github_url}>
+              <img src="icons/github.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px', marginRight: '5px' }} />
+            </a>
+            <a href={project.website_url}>
+              <img src="icons/globe.png" alt="Python Logo" style={{ width: '20px', height: '20px', position: 'relative', top: '4px' }} />
+            </a>
+          </p>
+          <p>
+            {project.description}
+            <div className="break-special" />
+            {
+              project.stacks.map( (stack) =>
+                <img src={"icons/" + stack} alt="Python Logo" style={{ width: '35px', height: '35px' }} />
+              )
+            }
+
+          </p>
+        </div>
+      );
+    });
+
 
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
@@ -89,7 +119,7 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row work">
+          <div className="row education">
             <div className="three columns header-col">
               <h1>
                 <span>Work</span>
@@ -100,6 +130,18 @@ class Resume extends Component {
           </div>
         </Slide>
 
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Project</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{project}</div>
+          </div>
+        </Slide>
       </section>
     );
   }

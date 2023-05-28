@@ -122,6 +122,28 @@
         "name":"JAVA",
         "level":"80%"
       }
+    ],
+      "projects": [
+    {
+      "title":"PINUS Study Forum",
+      "category":"Website Development",
+      "image":"pinus.png",
+      "website_url": "https://pinus-study.netlify.app/",
+      "github_url": "https://github.com/PINUSTECH-2022",
+      "url":"https://www.canadianwanderlust.com",
+      "description": "Led a team of 8 programmers to build an online forum centred around NUS courseworks",
+      "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
+    },
+    {
+      "title":"FoodSense",
+      "category":"Website Development",
+      "image":"foodsense2.png",
+      "website_url": "https://pinus-study.netlify.app/",
+      "github_url": "https://github.com/PINUSTECH-2022",
+      "url":"https://www.canadianwanderlust.com",
+      "description": "Worked in a team of 2 to build a food analytics website",
+      "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
+    }
     ]
   },
   "portfolio":{
