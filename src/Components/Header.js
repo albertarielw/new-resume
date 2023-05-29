@@ -46,10 +46,10 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 style={{ color: 'white', fontSize: '30px' }}>Hi, I'm Albert!</h1>
+              <h1 style={{ color: 'white', fontSize: '40px' }}>Hi, I'm Albert</h1>
             </Fade>
             <Fade bottom duration={1200}>
-            <h1 style={{ color: 'white', fontSize: '30px' }}>An Aspiring Software Engineer</h1>
+            <h1 style={{ color: 'white', fontSize: '30px' }}>Excited To Work On Amazing Software Engineering Project!</h1>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
