@@ -174,6 +174,7 @@ class Resume extends Component {
 
     return (
       <section id="resume">
+        
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -189,6 +190,7 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+        
         <Slide left duration={1300}>
           <div className="row education" >
             <div className="three columns header-col">

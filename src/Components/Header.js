@@ -13,6 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
+        <ParticlesBg type="circle" bg={true} />
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -39,28 +40,16 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-
-            <li>
-              <a className="smoothscroll" href="#resume-2">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li>
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 style={{ color: 'white', fontSize: '30px' }}>{name}</h1>
+              <h1 style={{ color: 'white', fontSize: '30px' }}>Hi, I'm Albert!</h1>
             </Fade>
             <Fade bottom duration={1200}>
-            <h1 style={{ color: 'white', fontSize: '30px' }}>{description}</h1>
+            <h1 style={{ color: 'white', fontSize: '30px' }}>An Aspiring Software Engineer</h1>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
