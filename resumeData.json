@@ -1,0 +1,262 @@
+{
+  "main": {
+    "name":"Hi, I'm Albert",
+    "description":"Excited To Work On Cool Software Engineering Project!",
+    "image":"profilepic5.jpeg",
+    "bio1":"I really love software engineering - it is akin to magic for me because of its ability to translate my imagination to reality. I always look forward to build exciting software engineering products reliably and responsibly!",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane, I love to gym and play nintendo switch with my best buds!",
+    "contactmessage":"Contact me to collaborate on software development projects!",
+    "email": "w.albertariel@u.nus.edu",
+    "phone": "(+65) 8130 6134",
+    "github":"https://github.com/albertarielw",
+    "project":"https://www.linkedin.com/in/albert-widiaatmaja",
+    "address":{
+      "street":"1 Raffles Institution Lane",
+      "city":"Singapore City",
+      "state":"Singapore",
+      "zip": "575954"
+    },
+    "website": "https://github.com/albertarielw/albertarielw/blob/main/Resume%20Albert%20Ariel%20Widiaatmaja%20(30%20Aug%202022).pdf",
+    "resumedownload":"https://github.com/albertarielw/albertarielw/blob/main/Resume%20Albert%20Ariel%20Widiaatmaja%20(30%20Aug%202022).pdf",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/albertarielw",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"National University of Singapore (NUS)",
+        "degree":"Computer Science and Mathematics",
+        "graduated":"Graduation Date: Nov 2024",
+        "description":"Courseworks: Competitive Programming, Operating Systems, Computer Networks, Software Engineering, Database Systems, Data Structure & Algorithms, Object-Oriented Programming",
+        "description2":"Awarded NUS Undergraduate Merit Scholarship for Academic Excellence"
+      },
+      {
+        "school":"Raffles Institution",
+        "degree":"Science Streams",
+        "graduated":"Graduation Date: Dec 2020",
+        "description":"Awards in Physics, Mathematics, Research and Robotics Olympiads",
+        "description2":"Awarded SCCC School Based Scholarship for Academic Excellence"
+      }
+    ],
+    "work":[
+      {
+        "company":"TikTok",
+        "title":"Software Engineering Intern",
+        "years":"Jan 2023 - July 2023",
+        "description":"Developed internal tools for site stability issues identification and management",
+        "stacks": ["golang.svg", "python.svg", "sql.png", "redis.svg", "grafana.png"]
+      },
+      {
+        "company":"ConcreteAI",
+        "title":"Software Engineering Intern",
+        "years":"May 2022 - July 2022",
+        "description":"Developed android application for data transmission via Bluetooth Low Energy (BLE)",
+        "stacks": ["node.svg", "kotlin.svg", "mongodb.png", "android.svg"]
+      },
+      {
+        "company":"NUS-SSI Laboratories",
+        "title":"Research Assistant",
+        "years":"May 2023 - August 2023",
+        "description":"Developed communication module for smart glasses using WebRTC",
+        "stacks": ["cpp.svg", "opencv.svg", "js.svg"]
+      },
+      {
+        "company":"National University of Singapore (NUS)",
+        "title":"Teaching Assistant",
+        "years":"May 2022 - July 2022",
+        "description":"Taugt Introduction to Programming in Python to a class of 25 freshmen",
+        "stacks": ["python.svg"]
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ],
+    "projects": [
+      {
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "website_url": "https://pinus-study.netlify.app/",
+        "github_url": "https://github.com/PINUSTECH-2022",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed an online forum centred around NUS courseworks (team lead)",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
+      },
+      {
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "website_url": "https://foodsense2022.github.io/",
+        "github_url": "https://github.com/albertarielw/FoodSense",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed a food analytics website",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
+      },
+      {
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "website_url": "https://ay2223s1-cs2103t-f12-2.github.io/tp/",
+        "github_url": "https://github.com/AY2223S1-CS2103T-F12-2/tp",
+        "description": "Developed hackathon task management desktop application",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
+      },
+      {
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "website_url": "",
+        "github_url": "https://github.com/AudreyFelicio/Tetris",
+        "description": "Developed a simple Tetris game",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
+      },
+      {
+        "title":"QR Decomposition Algorithm",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/qr-decomposition-prediction",
+        "description": "Implemented least square approximation based on QR decomposition algorithm",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
+      }
+    ],
+    "miniProjects": [
+      {
+        "title":"Physics Research: The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"pinus.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/Drifting-Speckle",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Silver Medal in Singapore Young Physicists' Tournament 2020",
+        "stacks": ["cpp.svg", "wolfram.svg"]
+      },
+      {
+        "title":"Robotics Software Engineer",
+        "category":"Robotics Development",
+        "image":"foodsense2.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/robotics",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "3rd Place Award in RoboCup World 2019, Invitation to RoboCup World 2019 in Sydney",
+        "stacks": ["cpp.svg", "python.svg"]
+      },
+      {
+        "title":"Physics Olympiad",
+        "category":"Academic Competition",
+        "image":"hackassist.png",
+        "website_url": "",
+        "github_url": "",
+        "description": "Silver Medal in SPhO 2019, Bronze and Silver Medal in SJPO 2017 & 2018",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": []
+      }
+    ],
+    "skillset": [
+      {
+        "title": "Programming Language",
+        "stacks": ["cpp.svg", "golang.svg", "python.svg", "java.svg", "js.svg", "html.svg", "css.svg", "c.svg", "kotlin.svg"]
+      },
+      {
+        "title": "Frameworks",
+        "stacks": ["sql.png", "psql.png", "gin.png", "node.svg", "firebase.svg", "react.png", "android.svg", "git.svg"]
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
+      },
+      {
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
+      },
+      {
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
+      },
+      {
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
+      },
+      {
+        "title":"Lish's Adventure",
+        "category":"Mobile Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["flutter.svg", "flame.png"]
+      },
+      {
+        "title":"The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"speckle.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "wolfram.svg"]
+      },
+      {
+        "title":"QR Decomposition Algo",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
+      },
+      {
+        "title":"Robotics Competitions",
+        "category":"Robotics Development",
+        "image":"robotics.jpeg",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "arduino.svg"]
+      }
+    ]
+  }
+}

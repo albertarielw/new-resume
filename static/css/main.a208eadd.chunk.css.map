@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/additional.css"],"names":[],"mappings":"AAIA,aACI,kBACJ","file":"main.a208eadd.chunk.css","sourcesContent":[".bio {\n    text-align: justify;\n}\n\n.resume {\n    text-align: justify;\n}"]}
